@@ -1,20 +1,23 @@
 .wrapper {
   width: 100%;
-  padding: 12px;
-  
-  color: var(--fg-attention);
-  
+  padding: 14px 8px 2px;
+  color: var(--accent-fg);
   display: flex;
   justify-content: center;
   font-weight: 500;
   font-size: 14px;
 }
 .notification {
-  background-color: var(--bg-attention);
-  border: 1px solid var(--border-attention);
-  width: 80%;
-  padding: 6px;
+  width: 60%;
+  padding: 4px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+.notificationCount {
+  background-color: var(--danger-muted);
+  color: var(--danger-fg);
+  padding: 0.1em 0.3em;
+  border-radius: 6px;
 }
