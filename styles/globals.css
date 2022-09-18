@@ -1,9 +1,77 @@
+:root {
+  /* Background colors */
+  --bg-secondary: #fff;
+  --bg-inset: #f6f8fa;
+  --bg: #f6f8fa; 
+/* Foregrounds colors */
+  --fg: #24292f;
+  --fg-secondary: #6e7781;
+  --fg-muted: #57606a;
+  --fg-onemphasis: #ffffff;
+/* Border colors */
+--border:#d0d7de;
+--border-muted: hsla(210,18%,87%,1);
+--border-secondary: rgba(27,31,36,0.15);
+/* Accent */
+--accent-fg: #0969da;
+--accent-emphasis: #0969da;
+--accent-muted: rgba(84,174,255,0.4);
+--accent-secondary: ddf4ff;
+/* Success */
+--success-fg: #1a7f37;
+--success-emphasis: #2da44e;
+--success-muted: rgba(74,194,107,0.4);
+--success-secondary: #dafbe1;
+/* Danger */
+--danger-fg: #cf222e;
+--danger-emphasis: #cf222e;
+--danger-muted: rgba(255,129,130,0.4);
+--danger-secondary: #ffebe9;
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+  /* Background colors */
+  --bg-secondary: #0d1117;
+  --bg-inset: #161b22;
+  --bg: #010409; 
+/* Foregrounds colors */
+  --fg: #c9d1d9;
+  --fg-secondary: #6e7681;
+  --fg-muted: #8b949e;
+  --fg-onemphasis: #ffffff;
+/* Border colors */
+--border:#30363d;
+--border-muted: #21262d;
+--border-secondary: rgba(240,246,252,0.1);
+/* Accent */
+--accent-fg: #58a6ff;
+--accent-emphasis: #1f6feb;
+--accent-muted: rgba(56,139,253,0.4);
+--accent-secondary: rgba(56,139,253,0.15);
+/* Success */
+--success-fg: #3fb950;
+--success-emphasis: #238636;
+--success-muted: rgba(46,160,67,0.4);
+--success-secondary: rgba(46,160,67,0.15);
+/* Danger */
+--danger-fg: #f85149;
+--danger-emphasis: #da3633;
+--danger-muted: rgba(248,81,73,0.4);
+--danger-secondary: rgba(248,81,73,0.15);
+}
+}
+
+
+
 html,
 body {
+  background-color: var(--bg);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
 }
 
 a {
@@ -14,13 +82,8 @@ a {
 * {
   box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+input:focus-visible {
+  outline: none;
 }
+  
+

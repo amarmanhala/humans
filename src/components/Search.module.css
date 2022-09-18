@@ -1,0 +1,45 @@
+.container {
+  
+  padding: 1.4em;
+  border-block-end: 1px solid var(--border-secondary);
+}
+.searchInputWrapper {
+  width: 100%;
+   border-radius: 100px;
+   border: 1px solid var(--border-secondary);
+   height: 48px;
+   display: flex;
+   align-items: center;
+   background-color: var(--bg-secondary);
+}
+.searchInput {
+  width: 100%;
+  border: none;
+  height: 100%;
+  font-size: 18px;
+  background: none;
+  color: var(--fg);
+  padding: none;
+
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    letter-spacing: .021em;
+}
+.icon {
+  width: 18px;
+  margin: 0 14px;
+  flex-shrink: 0;
+  fill: var(--fg-secondary);
+}
+.clear {
+  background: none;
+  border: none;
+  padding: none;
+  margin: 0;
+  height: 100%;
+  display: flex;
+    align-items: center;
+    cursor: pointer;
+}
