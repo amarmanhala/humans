@@ -3,20 +3,23 @@
   --bg-secondary: #fff;
   --bg-inset: #f6f8fa;
   --bg: #f6f8fa; 
+  --bg-attention: #f8e3a1;
 /* Foregrounds colors */
   --fg: #24292f;
   --fg-secondary: #6e7781;
   --fg-muted: #57606a;
   --fg-onemphasis: #ffffff;
+  --fg-attention: #9e6a03;
 /* Border colors */
 --border:#d0d7de;
 --border-muted: hsla(210,18%,87%,1);
 --border-secondary: rgba(27,31,36,0.15);
+--border-attention: #e3b341;
 /* Accent */
 --accent-fg: #0969da;
 --accent-emphasis: #0969da;
 --accent-muted: rgba(84,174,255,0.4);
---accent-secondary: ddf4ff;
+--accent-secondary: #ddf4ff;
 /* Success */
 --success-fg: #1a7f37;
 --success-emphasis: #2da44e;

@@ -28,7 +28,7 @@ export default function Search() {
           value={searchText}
           className={styles.searchInput}
         ></input>
-        {searchText != "" && (
+        {searchText !== "" && (
           <button onClick={() => setSearchText("")} className={styles.clear}>
             <svg
               width="40"

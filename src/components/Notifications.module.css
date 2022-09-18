@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  padding: 12px;
+  
+  color: var(--fg-attention);
+  
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+.notification {
+  background-color: var(--bg-attention);
+  border: 1px solid var(--border-attention);
+  width: 80%;
+  padding: 6px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}

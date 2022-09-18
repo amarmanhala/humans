@@ -1,5 +1,5 @@
 .container {
-  padding: 1.4em;
+  padding: 1em 1.2em;
   border-block-end: 1px solid var(--border);
 }
 .searchInputWrapper {
