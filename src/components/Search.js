@@ -23,6 +23,7 @@ export default function Search() {
           spellCheck="off"
           aria-label="Search Humans"
           placeholder="Search"
+          autoFocus
           onChange={(e) => setSearchText(e.target.value)}
           value={searchText}
           className={styles.searchInput}

@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--fg-secondary);
+  padding: 0.8em;
+  cursor: pointer;
+}
+.alphabet {
+  cursor: pointer;
+  margin: 0px 0.15em;
+   
+}
