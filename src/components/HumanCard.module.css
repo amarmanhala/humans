@@ -1,23 +1,56 @@
 .wrapper {
-  background-color: aquamarine;
   height: 72px;
   width: 100%;
 }
 .innerWrapper {
   display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 12px;
-    cursor: pointer;
-    height: 74px;
-    width: 100%;
-    box-sizing: border-box;
-    background: var(--bg);
-    border-block-end: 0.5px solid var(--border-secondary);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  cursor: pointer;
+  height: 74px;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-block-end: 0.5px solid var(--border-secondary);
+}
+.innerWrapper:hover {
+  background-color: var(--bg-secondary);
 }
 .avatarWrapper {
   flex-shrink: 0;
   border-radius: 50%;
-  background: #000;
+  background: var(--bg-secondary);  
   border: 2px solid #0000;
+}
+.innerAvatarWrapper {
+  width: 54px;
+  height: 54px;
+}
+.detailWrapper {
+  display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 54px;
+    width: 0;
+    margin-inline-start: 10px;
+    justify-content: space-evenly;
+}
+.name {
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--fg);
+    letter-spacing: 0.03em;
+}
+.actionsWrapper {
+  flex-shrink: 0;
+    align-self: center;
+    margin-inline-start: 12px;
+    
+}
+.status {
+  color: var(--danger-emphasis);
+  font-size: 11px;
+  font-weight: 500;
 }
